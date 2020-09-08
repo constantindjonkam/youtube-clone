@@ -1,0 +1,125 @@
+.videoCard {
+  max-width: 253px;
+  cursor: pointer;
+}
+
+.infoContainer {
+  display: flex;
+  /* align-items: center; */
+  object-fit: contain;
+}
+
+.duration {
+  font-family: "Roboto";
+  font-size: 14px;
+  background-color: #030508;
+  opacity: 0.8;
+  color: white;
+  width: max-content;
+  padding: 1.5px;
+  position: relative;
+  left: 210px;
+  top: 118px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.videoCard__thumbnail {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 253px;
+  height: 142px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.videoCard__avatar {
+  width: 36px !important;
+  height: 36px !important;
+  margin-right: 10px;
+  margin-left: -15px;
+}
+
+#videoCard__textContainer {
+  margin-top: 8px;
+}
+
+.videoCard__channelBox {
+  display: flex;
+  align-items: center;
+}
+
+.videoCard__viewTime {
+  display: flex;
+  align-items: center;
+}
+
+.videoCard__circleIcon {
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.videoCard__iconContainer {
+  width: 24px;
+  height: 24px;
+  background-color: #2a2a2a;
+  position: relative;
+  left: 220px;
+  padding: 2px;
+  text-align: center;
+  display: none;
+}
+
+.videoCard__queryIcon {
+  margin-top: 2px;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: white !important;
+  border-radius: 100%;
+  /* position: relative;
+  left: 220px; */
+  white-space: nowrap !important;
+  /* clip: rect(0px, 60px, 200px, 0px) !important; */
+}
+
+.videoCard:hover > .videoCard__iconContainer {
+  width: 24px;
+  height: 24px;
+  background-color: #2a2a2a;
+  position: relative;
+  left: 220px;
+  padding: 2px;
+  text-align: center;
+  display: block;
+  background-color: aqua;
+}
+
+.grey {
+  color: #606060 !important;
+  font-family: "Roboto";
+}
+
+.grey2 {
+  color: #aaaaaa !important;
+  font-family: "Roboto";
+}
+
+.grey:hover {
+  color: #606060 !important;
+}
+
+.grey2:hover {
+  color: #606060 !important;
+}
+
+.m5 {
+  margin-left: 5px;
+}
+
+.textSize {
+  font-size: 13.5px;
+  font-family: "Roboto";
+}

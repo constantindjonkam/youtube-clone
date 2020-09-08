@@ -1,0 +1,73 @@
+.videoChannelCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 136px;
+}
+
+.videoChannelCard__main {
+  width: 60%;
+}
+
+.videoChannelCard__avatar {
+  height: 136px !important;
+  width: 136px !important;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.videoChannelCard__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.videoChannelCard__context {
+  display: flex;
+  cursor: pointer;
+}
+
+.videoChannelCard__text {
+  font-family: "Roboto";
+  color: #606060 !important;
+  font-size: 13.2px;
+}
+
+.videoChannelCard__button {
+  font-family: "Roboto";
+  font-size: 13.8px;
+  font-weight: bold;
+  background-color: #ececec;
+  color: #606060;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.videoChannelCard__notifIcon {
+  color: #909090 !important;
+  cursor: pointer;
+}
+
+.videoChannelCard__subscribers {
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.videoChannelCard__title {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 100;
+  margin-right: 5px;
+  max-lines: 1;
+  cursor: pointer;
+}
+
+.videoChannelCard__circleIcon {
+  color: #606060 !important;
+  height: 16px !important;
+  width: 16px !important;
+  cursor: pointer;
+}

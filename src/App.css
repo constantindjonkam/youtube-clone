@@ -1,0 +1,26 @@
+.videoContainer {
+  display: flex;
+}
+
+.afterMenuSlide {
+  padding-left: 68px !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 1330px) {
+  .sidebar {
+    width: 68px !important;
+    position: absolute !important;
+  }
+
+  .menuIcon {
+    display: none !important;
+  }
+
+  .videos,
+  .searchPage,
+  .notfoundpage {
+    padding-left: 68px;
+    width: 100% !important;
+  }
+}

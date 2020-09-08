@@ -1,0 +1,41 @@
+.menuButton {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.menuButton__title {
+  margin-left: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.menuButton__icon {
+  color: #606060 !important;
+  margin-left: 25px;
+  width: 20px !important;
+  height: 30px !important;
+}
+
+.active {
+  background-color: #e5e5e5;
+  font-size: 10px !important;
+  font-weight: 501 !important;
+}
+
+.active > .menuButton__icon {
+  color: #ff0000 !important;
+}
+
+.active:hover {
+  background-color: #cacaca !important;
+}
+
+.menuButton:hover > .menuButton__icon {
+  color: #ff0000 !important;
+}
+
+.menuButton:hover {
+  background-color: #f2f2f2;
+}

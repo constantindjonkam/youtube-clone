@@ -1,0 +1,188 @@
+.videoSearchCard {
+  display: flex;
+  cursor: pointer;
+}
+
+.infoContainer {
+  display: flex;
+  flex: 1;
+  object-fit: contain;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.videoSearchCard__duration {
+  font-family: "Roboto";
+  font-size: 14px;
+  background-color: #030508;
+  color: white;
+  opacity: 0.8;
+  width: max-content;
+  padding: 1.5px 2px;
+  position: absolute;
+  border-radius: 2px;
+  /* left: 205px;
+  top: 115px; */
+  right: 4px;
+  bottom: 3px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.videoSearchCard__thumbnail {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 360px;
+  height: 202px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.videoSearchCard__avatar {
+  width: 36px !important;
+  height: 36px !important;
+  margin-right: 10px;
+}
+
+#videoSearchCard__textContainer {
+  display: flex;
+}
+
+.videoSearchCard__channelBox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.videoChannelCard__avatarContainer {
+  /* width: 360px; */
+}
+
+.videoSearchCard__viewTime {
+  /* display: flex; */
+  /* align-items: center; */
+  /* Due to some youtube changes this is not more needed*/
+}
+
+.videoSearchCard__avatar {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.videoSearchCard__circleIcon {
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.videoSearchCard__iconContainer {
+  width: 24px;
+  height: 24px;
+  background-color: #2a2a2a;
+  position: absolute;
+  right: 3px;
+  top: 5px;
+  padding: 2px;
+  text-align: center;
+  opacity: 0;
+}
+
+.videoSearchCard__iconContainer2 {
+  width: 24px;
+  height: 24px;
+  background-color: #2a2a2a;
+  position: absolute;
+  right: 3px;
+  top: 40px;
+  padding: 2px;
+  text-align: center;
+  opacity: 0;
+}
+
+.videoSearchCard__playIcon {
+  color: white !important;
+}
+
+.videoSearchCard__playArrowIcon {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  width: 56px !important;
+  height: 56px !important;
+  color: white !important;
+  opacity: 0;
+}
+
+.videoSearchCard__queryIcon {
+  margin-top: 2px;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: white !important;
+  border-radius: 100%;
+  position: absolute;
+  right: 3px;
+  /* white-space: nowrap !important; */
+  display: block;
+  /* clip: rect(0px, 60px, 200px, 0px) !important; */
+}
+
+.videoSearchCard__thumbnail:hover > .videoSearchCard__iconContainer {
+  opacity: 1;
+}
+
+.videoSearchCard__thumbnail:hover > .videoSearchCard__iconContainer2 {
+  opacity: 1;
+}
+
+.videoSearchCard__thumbnail:hover > .videoSearchCard__playArrowIcon {
+  opacity: 1;
+}
+
+.grey {
+  color: #606060 !important;
+  font-family: "Roboto";
+}
+
+.grey2 {
+  color: #aaaaaa !important;
+  font-family: "Roboto";
+}
+
+.grey:hover {
+  color: #606060 !important;
+}
+
+.grey2:hover {
+  color: #606060 !important;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.textSize__info {
+  font-size: 13px;
+  font-family: "Roboto";
+  margin-top: 5px;
+}
+
+.textSize__description {
+  font-size: 13px;
+  font-family: "Roboto";
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.videoSearchCard__title {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 100 !important;
+  margin: 0 !important;
+  max-lines: 2 !important;
+}

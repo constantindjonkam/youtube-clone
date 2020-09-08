@@ -1,0 +1,46 @@
+.scroller {
+  display: flex;
+  align-items: center;
+}
+
+#child {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 40%;
+  /* scroll-behavior: smooth; */
+}
+
+.scroller__button {
+  color: #6a6a6a !important;
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.scroller__btnContainer {
+  width: 60px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroller__btnInvisible {
+  height: 32px;
+  width: 32px;
+  border: 0;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.scroller__btnInvisible:active {
+  background-color: #c7c7c7;
+}
+
+.showBtn {
+  display: block;
+}
+
+.hideBtn {
+  display: none;
+}
