@@ -1,0 +1,11 @@
+.sidebar {
+  /* flex: 0.175; */
+  /* margin-top: 8px; */
+  z-index: 99;
+  width: 17.8%;
+  overflow-x: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  height: max-content;
+}

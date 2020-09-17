@@ -1,0 +1,51 @@
+.searchPage {
+  width: 82.2%;
+  padding: 20px 20px;
+  background-color: #f9f9f9;
+}
+
+.searchPage_filter {
+  display: flex;
+  color: #606060 !important;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchPage_filterText {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.SearchPage__notfound {
+  display: grid;
+  place-items: center;
+  padding-top: 140px;
+}
+
+.SearchPage__notfoundText {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 100px;
+  margin: 15px 0;
+}
+
+.SearchPage__notfoundsubTitle {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.searchPage_content {
+  /* width: 80%; */
+  /* Due to some youtube changes while building the app */
+}
+
+/* .active {
+  background-color: white;
+  font-size: medium !important;
+  font-weight: normal !important;
+}
+
+.active > .menuButton__icon {
+  color: #6a6a6a;
+} */

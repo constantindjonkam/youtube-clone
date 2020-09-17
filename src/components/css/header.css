@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5.5px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+  cursor: pointer;
+}
+
+.header__logo {
+  margin-left: 25px;
+  height: 45px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  /* height: 30px; */
+  /* border: 1px solid #d3d3d3; */
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+#search_button_container {
+  background-color: #f8f8f8;
+  padding-left: 23px;
+  padding-right: 23px;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  border-left: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.header__search__button {
+  width: 20px !important;
+  color: #828282;
+  margin-top: 3px;
+}
+
+.header__search > input {
+  /* border: 0px; */
+  flex: 1;
+  width: 45%;
+  height: 32px;
+  border: 1px solid #d3d3d3;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.header__search > input:focus {
+  border-color: #1c62b9;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  margin-right: 20px;
+  color: #606060 !important;
+  cursor: pointer;
+}
+
+.iconColor {
+  color: #606060 !important;
+}
+
+.avatar {
+  height: 32px !important;
+  width: 32px !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .header {
+    justify-content: space-evenly;
+  }
+
+  .header__search {
+    width: min-content;
+  }
+
+  .header__search > input {
+    display: none;
+  }
+
+  #search_button_container {
+    background-color: white;
+    border: 0;
+  }
+
+  .header__search__button {
+    width: 20px !important;
+    height: 30px !important;
+    color: #828282;
+    padding: 0 23px;
+    border-left: 0px;
+    background-color: white;
+  }
+
+  #header__search__hiddenBtn {
+    border: 0 !important;
+    opacity: 0;
+  }
+
+  .header__search {
+    border: 0px;
+  }
+}

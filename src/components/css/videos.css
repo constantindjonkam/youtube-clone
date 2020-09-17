@@ -1,0 +1,36 @@
+.videos {
+  /* flex: 0.825; */
+  width: 82.2%;
+}
+
+.buttons {
+  margin-left: 20px;
+  display: flex;
+}
+
+#videoContainer {
+  padding: 35px 20px;
+  flex: 0.825;
+  background-color: #f9f9f9;
+}
+
+#containerTitle {
+  font-family: "Roboto";
+  font-size: 19px;
+}
+
+#videoCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+#categoryBar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 60px;
+  z-index: 98;
+  background-color: white;
+  font-family: "Roboto";
+}
